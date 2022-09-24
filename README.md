@@ -95,3 +95,4 @@ Kenapa passwordnya nakano? Karena, berdasarkan 3 percakapan yang sudah dilampirk
 
 ## Kendala
 ### Soal 8
+Pada saat praktikum, terdapat sedikit kendala dimana follow stream yang dilakukan masih secara manual, sehingga pengecekan dilakukan secara satu persatu. Hal tersebut menyita cukup banyak waktu
