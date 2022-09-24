@@ -78,7 +78,7 @@ Dari percakapan pada nomor 8, dapat diketahui bahwa kedua mahasiswa tersebut sed
 <img width="958" alt="image" src="https://user-images.githubusercontent.com/90702710/192085635-deabf95c-8b9e-495d-b948-f5b479bdc4c8.png"> <br/>
 Maka, didapatkanlah file Salt yang masih terencrypt <br/>
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/90702710/192085560-64789834-1cfd-42b8-b9ef-541303164f96.png"> <br/>
-Untuk mendecrpyt file tersebut, ubah data menjadi row dengan cara berikut, kemudian save as E12.des3 <br/>
+Untuk mendecrpyt file tersebut, ubah data menjadi raw dengan cara berikut, kemudian save as E12.des3 <br/>
 <img width="262" alt="image" src="https://user-images.githubusercontent.com/90702710/192085693-6c4ccad6-0ee8-4e09-a508-5822fcb892cb.png"> <br/>
 Pada folder yang terdapat file .des3 tersebut, lakukan `git bash here` dengan command `openssl des3 -d -salt -in e12.des3 -out flag.txt -k nakano` (penjelasan password akan diberikan pada nomor 10) <br/>
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/90702710/192085770-956c19a9-f3fa-4234-9781-0427383eacc8.png"> <br/>
