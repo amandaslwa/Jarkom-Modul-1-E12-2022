@@ -47,8 +47,10 @@ Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 21, ya
 
 
 ### Soal 5
-
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 ### Penjelasan
+Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 443, yakni dengan menggunakan ekspresi tcp.srcport == 443 or udp.srcport == 443 untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari port 443 <br/>
+<img width="701" alt="image" src="https://user-images.githubusercontent.com/90702710/192083691-896f07e4-41f0-4ad9-be1f-15b286707303.png">
 
 ### Soal 6
 
