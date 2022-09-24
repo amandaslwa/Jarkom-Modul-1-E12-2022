@@ -1,9 +1,9 @@
 # Jaringan Komputer 2022
 Kelas Jaringan Komputer E - Kelompok E12
-### Nama Anggota
-- Azzura Mahendra Putra Malinus (5025201211)
-- Amanda Salwa Salsabila (5025201172)
-- Michael Ariel Manihuruk (5025201158)
+### Nama Anggota dan Pembagian Kerja
+- Azzura Mahendra Putra Malinus (5025201211) // Nomor 1-3
+- Amanda Salwa Salsabila (5025201172) // Nomor 7-10
+- Michael Ariel Manihuruk (5025201158) // Nomor 4-6
 
 ## Modul 1
 ### Soal 1
