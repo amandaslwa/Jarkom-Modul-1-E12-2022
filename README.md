@@ -40,26 +40,26 @@ Ekspresi untuk mencari paket yang menuju port 80 pada jawaban soal ini masih kur
 <img width="803" alt="image" src="https://user-images.githubusercontent.com/90702710/192083618-836f73b8-3857-4761-92e7-64dd811a4f14.png"> <br />
 
 ### Soal 4
-Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+Filter sehingga wireshark hanya mengambil paket yang berasal dari `port 21`!
 ### Penjelasan
-Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 21, yakni dengan menggunakan ekspresi tcp.srcport == 21 or udp.srcport == 21 untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari port 21 <br/>
+Yang harus dilakukan adalah kita tinggal melakukan capture filter di `port 21`, yakni dengan menggunakan ekspresi `tcp.srcport == 21 or udp.srcport == 21` untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari `port 21` <br/>
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/90702710/192083650-735d7ba2-b1b5-4f9b-8304-f42431cca5d0.png">
 
 
 ### Soal 5
-Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+Filter sehingga wireshark hanya mengambil paket yang berasal dari `port 443`!
 ### Penjelasan
-Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 443, yakni dengan menggunakan ekspresi tcp.srcport == 443 or udp.srcport == 443 untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari port 443 <br/>
+Yang harus dilakukan adalah kita tinggal melakukan capture filter di `port 443`, yakni dengan menggunakan ekspresi `tcp.srcport == 443 or udp.srcport == 443` untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari `port 443` <br/>
 <img width="701" alt="image" src="https://user-images.githubusercontent.com/90702710/192083691-896f07e4-41f0-4ad9-be1f-15b286707303.png">
 
 ### Soal 6
-Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke `lipi.go.id`!
 ### Penjelasan
 Untuk mengetahui ip sebuah web server, buka cmd dan enter command ping <web server> <br />
-ping lipi.go.id <br />
+`ping lipi.go.id` <br />
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/90702710/192083736-a6a54483-7299-4b20-b12d-42a4958edaac.png"> <br />
-Diketahui ip address dari monta.if.its.ac.id adalah 203.160.128.158 <br/>
-Setelah mendapatkan ip address nya, kita mengambil paket yang berasal dari ip address tersebut dengan meggunakan eskpresi ip.dst == 203.160.128.158 pada filter <br/>
+Diketahui ip address dari `monta.if.its.ac.id` adalah `203.160.128.158` <br/>
+Setelah mendapatkan ip address nya, kita mengambil paket yang berasal dari ip address tersebut dengan meggunakan eskpresi `ip.dst == 203.160.128.158` pada filter <br/>
 <img width="707" alt="image" src="https://user-images.githubusercontent.com/90702710/192083801-cc937ee0-b2d2-43e9-bbd4-0568b7227015.png">
 
 ### Soal 7
