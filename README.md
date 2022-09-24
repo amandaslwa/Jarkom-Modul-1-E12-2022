@@ -53,8 +53,14 @@ Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 443, y
 <img width="701" alt="image" src="https://user-images.githubusercontent.com/90702710/192083691-896f07e4-41f0-4ad9-be1f-15b286707303.png">
 
 ### Soal 6
-
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
 ### Penjelasan
+Untuk mengetahui ip sebuah web server, buka cmd dan enter command ping <web server> <br />
+ping lipi.go.id <br />
+<img width="453" alt="image" src="https://user-images.githubusercontent.com/90702710/192083736-a6a54483-7299-4b20-b12d-42a4958edaac.png"> <br />
+Diketahui ip address dari monta.if.its.ac.id adalah 203.160.128.158 <br/>
+Setelah mendapatkan ip address nya, kita mengambil paket yang berasal dari ip address tersebut dengan meggunakan eskpresi ip.dst == 203.160.128.158 pada filter <br/>
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/90702710/192083801-cc937ee0-b2d2-43e9-bbd4-0568b7227015.png">
 
 ### Soal 7
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
