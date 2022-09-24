@@ -40,8 +40,11 @@ Ekspresi untuk mencari paket yang menuju port 80 pada jawaban soal ini masih kur
 <img width="803" alt="image" src="https://user-images.githubusercontent.com/90702710/192083618-836f73b8-3857-4761-92e7-64dd811a4f14.png"> <br />
 
 ### Soal 4
-
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 ### Penjelasan
+Yang harus dilakukan adalah kita tinggal melakukan capture filter di port 21, yakni dengan menggunakan ekspresi tcp.srcport == 21 or udp.srcport == 21 untuk mengambil semua paket dengan protokol TCP atau UDP yang berasal dari port 21 <br/>
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/90702710/192083650-735d7ba2-b1b5-4f9b-8304-f42431cca5d0.png">
+
 
 ### Soal 5
 
